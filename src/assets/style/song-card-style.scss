@@ -1,0 +1,25 @@
+.song-card {
+    width: calc(100% / 5 - 30px);
+    background-color: #2E3A46;
+    padding: 30px;
+    margin: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.card-content h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.card-content span {
+    color: #6E7B6E;
+    margin: 10px 0px;
+    font-size: 20px;
+}
